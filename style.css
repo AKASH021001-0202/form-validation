@@ -1,0 +1,25 @@
+/* styles.css */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+@media (max-width:767px) {
+    table {
+       overflow: scroll;
+    }
+}
+#data-table { width: 100%; }
+.form-check {
+    position: relative;
+    display: inline-flex !important;
+    padding-right: 2.25rem !important;
+ 
+}
